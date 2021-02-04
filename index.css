@@ -5,9 +5,6 @@ body{
 *{
     margin: 0px;
     padding: 0px;
-}
-
-html{
     scroll-behavior: smooth;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -18,6 +15,18 @@ html{
     height: max-content;
     background-color: rgb(230, 230, 230);
     float: left;
+}
+
+
+.new_target{
+    text-align: center
+    ;background-color: rgb(244, 208, 63);
+    color: white;
+    font-weight: 700;
+    width: max-content;
+    padding: 1mm;
+    border-radius: 0.1cm;
+    margin-top: 1mm;
 }
 
 
@@ -75,6 +84,47 @@ html{
 
 .novedades a:hover{
     color: white;
+}
+
+/* header */
+header{
+    background: linear-gradient(rgb(179, 9, 60), rgb(78, 6, 28));
+    padding: 5mm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all .2s;
+}
+
+header div{
+    margin: 3mm;
+}
+
+header:hover{
+    opacity: 85%;
+}
+
+header h1, p{
+    font-weight: 300;
+}
+
+header p{
+    opacity: 75%;
+}
+
+header img{
+    width: 8cm;
+}
+
+.header-a{
+    text-decoration-line: none;
+}
+
+@media(max-width: 388px){
+    header img{
+        width: 7cm;
+    }
 }
 
 
@@ -717,8 +767,8 @@ html{
 }
 
 .clase{
-    width: 7cm;
-    height: max-content;
+    width: 6.5cm;
+    height: 7cm;
     margin-top: 0.5cm;
     margin-bottom: 0.5cm;
     margin-left: 0.5cm;
@@ -727,6 +777,14 @@ html{
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
     padding: 2mm;
     transition: all .2s;
+}
+
+.clase img{
+    height: 4cm;
+}
+
+.clase p{
+    font-weight: 400;
 }
 
 .clase:hover{

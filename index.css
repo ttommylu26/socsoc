@@ -19,14 +19,15 @@ body{
 
 
 .new_target{
-    text-align: center
-    ;background-color: rgb(244, 208, 63);
+    text-align: center;
+    background-color: rgb(244, 208, 63);
     color: white;
-    font-weight: 700;
     width: max-content;
     padding: 1mm;
     border-radius: 0.1cm;
-    margin-top: 1mm;
+    font-weight: 700;
+    margin: 3mm;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -68,7 +69,7 @@ body{
 .novedades{
     background-color: rgb(37, 37, 37);
     color: white;
-    padding: 2mm;
+    padding: 4mm;
     text-align: center;
 }
 
@@ -84,47 +85,6 @@ body{
 
 .novedades a:hover{
     color: white;
-}
-
-/* header */
-header{
-    background: linear-gradient(rgb(179, 9, 60), rgb(78, 6, 28));
-    padding: 5mm;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    transition: all .2s;
-}
-
-header div{
-    margin: 3mm;
-}
-
-header:hover{
-    opacity: 85%;
-}
-
-header h1, p{
-    font-weight: 300;
-}
-
-header p{
-    opacity: 75%;
-}
-
-header img{
-    width: 8cm;
-}
-
-.header-a{
-    text-decoration-line: none;
-}
-
-@media(max-width: 388px){
-    header img{
-        width: 7cm;
-    }
 }
 
 
@@ -781,10 +741,6 @@ header img{
 
 .clase img{
     height: 4cm;
-}
-
-.clase p{
-    font-weight: 400;
 }
 
 .clase:hover{
